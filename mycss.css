@@ -1,0 +1,56 @@
+
+/* Bordered form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* vh stands for viewport height */
+  }
+  
+  form {
+    margin-left:400px;
+    margin-right: 200px;
+    margin-top: -100px;
+    background-color: rgb(114, 29, 212);
+    border: 10px;
+    padding: 15px 18px;
+    border-color: black;
+    width: 90%; /* adjust this value to control the form's width */
+  }
+
+
+/* Full-width inputs */
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=button] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+h1{
+  margin-left: 450px;
+  top: 10%;
+}
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+
+/* Avatar image */
+
+
+/* The "Forgot password" text */
